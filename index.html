@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ശ്രീ കരിയാത്തൻ കാവ് | Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500&family=Meera&family=Uroob&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Page CSS -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fffaf3;
+      color: #333;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(255, 250, 243, 0.95);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+    }
+
+    .logo img {
+      height: 70px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #b8860b;
+    }
+
+    .hero {
+      height: 100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('/images/hero.jpg') center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-family: 'Uroob', 'Meera', serif;
+      font-size: 52px;
+      color: #fff;
+      letter-spacing: 1.5px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #b8860b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 500;
+    }
+
+    .hero a:hover {
+      background: #9c6f08;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 32px;
+      color: #8b5e1a;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #2e1d0e;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="/images/logo.png" alt="ശ്രീ കരിയാത്തൻ കാവ്" class="circle-logo">
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div data-aos="fade-up">
+    <h1>ശ്രീ കരിയാത്തൻ കാവ്</h1>
+    <p>Where devotion meets peace and tradition lives forever</p>
+    <a href="about.html">Explore Temple</a>
+  </div>
+</section>
+
+<section data-aos="fade-up">
+  <h2>Welcome to Our Temple</h2>
+  <p>
+    This sacred temple stands as a symbol of faith, tradition, and spiritual harmony.
+    Devotees from far and wide gather here to seek blessings and divine peace.
+  </p>
+</section>
+
+<footer>
+  © 2026 ശ്രീ കരിയാത്തൻ കാവ്. All Rights Reserved.
+</footer>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
